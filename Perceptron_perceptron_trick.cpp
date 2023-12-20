@@ -54,7 +54,7 @@ int classifier(vector<double> weights_and_bias, vector<double> input){
 
 int main(){
     fstream fin, fout;
-    fin.open("placement.csv", ios::in);
+    fin.open("train.csv", ios::in);
     vector<vector<double>> inputs;
     vector<int> outputs;
     string temp;
